@@ -1,0 +1,26 @@
+{
+  "name": "custom-react-native-time-picker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/react": "^18",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@react-native-picker/picker": "^2.7.7",
+    "expo": "51.0.14",
+    "react": "^18.3.1",
+    "react-native": "^0.74.2",
+    "react-native-modal": "^13.0.1",
+    "react-native-svg": "^15.3.0",
+    "react-native-web": "^0.19.12"
+  }
+}
