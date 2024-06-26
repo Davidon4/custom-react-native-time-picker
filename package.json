@@ -1,13 +1,22 @@
 {
   "name": "custom-react-native-time-picker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A customized react native time",
   "main": "index.js",
   "scripts": {
-    "build": "yarn tsc"
+    "build": "yarn tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davidon4/custom-react-native-time-picker.git"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "alert"
+  ],
+  "author": "https://github.com/Davidon4",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.14.9",
