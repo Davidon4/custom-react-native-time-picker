@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import Modal from "react-native-modal";
 import { Picker } from "@react-native-picker/picker";
-import {ArrowDown} from "../assets/icons";
+import { MaterialIcons } from '@expo/vector-icons';
 
 interface Props {
   initialValue: string;
@@ -59,7 +59,7 @@ const TimePicker: React.FC<Props> = ({ initialValue, onValueChange, isHourPicker
     <View style={styles.container}>
       <TouchableOpacity onPress={showPicker} style={styles.pickedDateContainer}>
         <Text style={styles.pickedDate}>{selectedValue}</Text>
-        <ArrowDown/>
+        <MaterialIcons name="keyboard-arrow-down" size={22} color="black" />
       </TouchableOpacity>
       {renderPicker()}
     </View>
