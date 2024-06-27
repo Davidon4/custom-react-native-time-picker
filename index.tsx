@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { StyleSheet, View, Text } from "react-native";
-import DatePicker from "@/components/DatePicker";
+import TimePicker from "./src/components/TimePicker";
 import { Entypo } from '@expo/vector-icons';
-import Button from "@/components/Button";
-import { Option } from "./assets/icon";
+import Button from "./src/components/Button";
 
 const App = () => {
   const [selectedHour, setSelectedHour] = useState("12");
@@ -24,13 +23,13 @@ const App = () => {
 
   return (
     <View style={styles.container}>
-      <DatePicker
+      <TimePicker
         initialValue={selectedHour}
         onValueChange={handleHourChange}
         isHourPicker={true}
       />
       <Entypo name="dots-two-vertical" size={24} color="black" />
-      <DatePicker
+      <TimePicker
         initialValue={selectedMinute}
         onValueChange={handleMinuteChange}
         isHourPicker={false}

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import Modal from "react-native-modal";
 import { Picker } from "@react-native-picker/picker";
-import {ArrowDown} from "../../assets/icon";
+import {ArrowDown} from "../assets/icons";
 
 interface Props {
   initialValue: string;
