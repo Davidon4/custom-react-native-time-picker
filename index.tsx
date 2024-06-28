@@ -4,7 +4,7 @@ import TimePicker from "./src/components/TimePicker";
 import { Entypo } from '@expo/vector-icons';
 import Button from "./src/components/Button";
 
-const App = () => {
+const CustomTimePicker = () => {
   const [selectedHour, setSelectedHour] = useState("12");
   const [selectedMinute, setSelectedMinute] = useState("00");
   const [selectedPeriod, setSelectedPeriod] = useState("AM");
@@ -58,4 +58,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default CustomTimePicker;
